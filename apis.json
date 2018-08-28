@@ -1,0 +1,128 @@
+{
+	"name": "Streadata.io API Gallery - Sort",
+	"description": "This is a repository of sort APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/sort.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://sort.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Reddit",
+			"x-api-slug": "reddit",
+			"description": "Reddit is a community of millions of users engaging in the creation of content and the sharing of conversation across tens of thousands of topics.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg",
+			"humanURL": "http://www.reddit.com",
+			"baseURL": "https:///",
+			"tags": "Sort",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sort/master/_listings/reddit/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Microsoft Graph",
+			"x-api-slug": "microsoft-graph",
+			"description": "Microsoft Graph exposes multiple APIs from Office 365 and other Microsoft cloud services through a single endpoint: https://graph.microsoft.com. Microsoft Graph simplifies queries that would otherwise be more complex. You can use Microsoft Graph to: Access data from multiple Microsoft cloud services, including Azure Active Directory, Exchange Online as part of Office 365, SharePoint, OneDrive, OneNote, and Planner. Navigate between entities and relationships. Access intelligence and insights from the Microsoft cloud (for commercial users).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png",
+			"humanURL": "https://developer.microsoft.com/en-us/graph/",
+			"baseURL": "https://graph.microsoft.com//",
+			"tags": "Sort",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sort/master/_listings/microsoft-graph/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Sort",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sort/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Transport for London Unified",
+			"x-api-slug": "transport-for-london-unified",
+			"description": "We are the integrated transport authority responsible for delivering Mayor of London Sadiq Khans strategy and commitments on transport. We run the day-to-day operation of the Capitals public transport network and manage Londons main roads.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/transport-for-london-unified-api.png",
+			"humanURL": "https://tfl.gov.uk/",
+			"baseURL": "https://api.tfl.gov.uk//",
+			"tags": "Sort",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sort/master/_listings/transport-for-london-unified/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Clover",
+			"x-api-slug": "clover",
+			"description": "Clover, a First Data company, builds the largest open-architecture point of sale solution aimed at small &amp; medium sized business owners. Our products are changing the consumer/merchant experience for the better, opening avenues for seamless customer-merchant interactions. There are five versions of Clover, including the Clover Station, Clover Mobile, Clover Mini, Clover Go, and Clover Flex. With Clover, First Data is aiming to create the largest open architecture operating system for commerce-enabling solutions and applications for business owners.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png",
+			"humanURL": "https://www.clover.com",
+			"baseURL": "https:///merchants/https://api.clover.com",
+			"tags": "Sort",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sort/master/_listings/clover/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Sort",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sort/master/_listings/dezrez/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Sort",
+	"include": [
+		{
+			"name": "Reddit",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sort/master/_listings/reddit/apis.yaml"
+		},
+		{
+			"name": "Microsoft Graph",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sort/master/_listings/microsoft-graph/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sort/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "Transport for London Unified",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sort/master/_listings/transport-for-london-unified/apis.yaml"
+		},
+		{
+			"name": "Clover",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sort/master/_listings/clover/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sort/master/_listings/dezrez/apis.yaml"
+		}
+	]
+}
